@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daf7f351-af38-48bf-bb45-2b5e2a45ab18" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HighPayTest/test/sqlHelper.js" afterPath="$PROJECT_DIR$/HighPayTest/test/sqlHelper.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HighPayTest/util/sqlHelper.js" afterPath="$PROJECT_DIR$/HighPayTest/util/sqlHelper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodejsTPro1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,13 +31,21 @@
       <file leaf-file-name="sqlHelper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HighPayTest/util/sqlHelper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="817">
-              <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1118" max-vertical-offset="2413">
+              <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
               <folding>
-                <element signature="e#504#647#0" expanded="false" />
-                <element signature="e#702#1060#0" expanded="false" />
-                <element signature="e#1062#1177#0" expanded="false" />
-                <element signature="e#1221#2633#0" expanded="false" />
+                <element signature="e#560#703#0" expanded="false" />
+                <element signature="e#758#1116#0" expanded="false" />
+                <element signature="e#1118#1305#0" expanded="false" />
+                <element signature="e#1349#2761#0" expanded="false" />
+                <element signature="e#2764#2944#0" expanded="false" />
+                <element signature="e#2992#3598#0" expanded="false" />
+                <element signature="e#3601#3736#0" expanded="false" />
+                <element signature="e#3817#3947#0" expanded="false" />
+                <element signature="e#3983#4454#0" expanded="false" />
+                <element signature="e#4457#4853#0" expanded="false" />
+                <element signature="e#5689#7109#0" expanded="false" />
+                <element signature="e#7657#8159#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -44,10 +54,15 @@
       <file leaf-file-name="sqlHelper.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HighPayTest/test/sqlHelper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4" vertical-offset="874" max-vertical-offset="1254">
-              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.95" vertical-offset="171" max-vertical-offset="874">
+              <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
+                <element signature="e#97#665#0" expanded="false" />
+                <element signature="e#667#1316#0" expanded="false" />
+                <element signature="e#1318#1527#0" expanded="false" />
+                <element signature="e#1529#2143#0" expanded="false" />
+                <element signature="e#2145#2603#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -61,8 +76,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HighPayTest/util/sqlHelper.js" />
         <option value="$PROJECT_DIR$/HighPayTest/test/sqlHelper.js" />
+        <option value="$PROJECT_DIR$/HighPayTest/util/sqlHelper.js" />
       </list>
     </option>
   </component>
@@ -98,6 +113,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,7 +184,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,17 +193,14 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Node.js.sqlHelper.js (1)">
-    <configuration default="false" name="sqlHelper.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="sqlHelper.js" working-dir="$PROJECT_DIR$/HighPayTest/test">
-      <RunnerSettings RunnerId="Basic" />
-      <RunnerSettings RunnerId="debuggableProgram" />
-      <ConfigurationWrapper RunnerId="Basic" />
-      <ConfigurationWrapper RunnerId="debuggableProgram" />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -196,10 +208,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -215,6 +223,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="false" name="sqlHelper.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="sqlHelper.js" working-dir="$PROJECT_DIR$/HighPayTest/util">
@@ -222,15 +235,17 @@
       <ConfigurationWrapper RunnerId="Basic" />
       <method />
     </configuration>
+    <configuration default="false" name="sqlHelper.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="sqlHelper.js" working-dir="$PROJECT_DIR$/HighPayTest/test">
+      <RunnerSettings RunnerId="Basic" />
+      <RunnerSettings RunnerId="debuggableProgram" />
+      <ConfigurationWrapper RunnerId="Basic" />
+      <ConfigurationWrapper RunnerId="debuggableProgram" />
+      <method />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.sqlHelper.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.sqlHelper.js (1)" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.sqlHelper.js (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -249,17 +264,17 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35691825" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -287,16 +302,51 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HighPayTest/util/sqlHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="817">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <folding>
+            <element signature="e#560#703#0" expanded="false" />
+            <element signature="e#758#1116#0" expanded="false" />
+            <element signature="e#1118#1305#0" expanded="false" />
+            <element signature="e#1349#2761#0" expanded="false" />
+            <element signature="e#2764#2944#0" expanded="false" />
+            <element signature="e#2992#3598#0" expanded="false" />
+            <element signature="e#3601#3736#0" expanded="false" />
+            <element signature="e#3817#3947#0" expanded="false" />
+            <element signature="e#3983#4454#0" expanded="false" />
+            <element signature="e#4457#4853#0" expanded="false" />
+            <element signature="e#5689#7109#0" expanded="false" />
+            <element signature="e#7657#8159#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighPayTest/test/sqlHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+            <element signature="e#97#665#0" expanded="false" />
+            <element signature="e#667#1316#0" expanded="false" />
+            <element signature="e#1318#1527#0" expanded="false" />
+            <element signature="e#1529#2143#0" expanded="false" />
+            <element signature="e#2145#2603#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HighPayTest/util/httpTool.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="2375">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -304,7 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5728643" vertical-offset="228" max-vertical-offset="1539">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -320,7 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5728643" vertical-offset="228" max-vertical-offset="1102">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -334,23 +382,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HighPayTest/util/sqlHelper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="817">
-          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1118" max-vertical-offset="2413">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
           <folding>
-            <element signature="e#504#647#0" expanded="false" />
-            <element signature="e#702#1060#0" expanded="false" />
-            <element signature="e#1062#1177#0" expanded="false" />
-            <element signature="e#1221#2633#0" expanded="false" />
+            <element signature="e#560#703#0" expanded="false" />
+            <element signature="e#758#1116#0" expanded="false" />
+            <element signature="e#1118#1305#0" expanded="false" />
+            <element signature="e#1349#2761#0" expanded="false" />
+            <element signature="e#2764#2944#0" expanded="false" />
+            <element signature="e#2992#3598#0" expanded="false" />
+            <element signature="e#3601#3736#0" expanded="false" />
+            <element signature="e#3817#3947#0" expanded="false" />
+            <element signature="e#3983#4454#0" expanded="false" />
+            <element signature="e#4457#4853#0" expanded="false" />
+            <element signature="e#5689#7109#0" expanded="false" />
+            <element signature="e#7657#8159#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HighPayTest/test/sqlHelper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4" vertical-offset="874" max-vertical-offset="1254">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.95" vertical-offset="171" max-vertical-offset="874">
+          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
+            <element signature="e#97#665#0" expanded="false" />
+            <element signature="e#667#1316#0" expanded="false" />
+            <element signature="e#1318#1527#0" expanded="false" />
+            <element signature="e#1529#2143#0" expanded="false" />
+            <element signature="e#2145#2603#0" expanded="false" />
           </folding>
         </state>
       </provider>

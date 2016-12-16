@@ -34,7 +34,7 @@ sqlHelper.execute("P_UIT_Search",param,function(err,recordsets,returnValue,affec
 
 */
 
-var updateParam={
+/*var updateParam={
     ID:{
         sqlType:sqlHelper.sqlserver.Int,
         direction:sqlHelper.direction.Input,
@@ -59,4 +59,85 @@ sqlHelper.execute("P_UIT_Update",updateParam,function(err,recordsets,returnValue
         if(affected>0)
             console.log("更新成功！");
     }
+});*/
+
+/*
+sqlHelper.query('select * from UserInfoTest ',function(err,recordsets,affected){
+    if(err)
+        console.log(err);
+    else {
+        console.log(recordsets);
+        console.log(affected);
+    }
 });
+*/
+
+/*
+var table=new sqlHelper.sqlserver.Table('UserInfoTest');
+table.create=true;
+//table.columns.add('id',sqlHelper.sqlserver.Int,{primary:true});
+table.columns.add('name',sqlHelper.sqlserver.NVarChar(50),{nullable:true});
+table.columns.add('pwd',sqlHelper.sqlserver.VarChar(200),{nullable:true});
+table.rows.add('张1','jjasdfienf');
+table.rows.add('张2','jjasdfienf');
+table.rows.add('张3','jjasdfienf');
+
+sqlHelper.bulkInsert(table,function(err,rowcount){
+    if(err)
+        console.log(err);
+    else{
+        if(table.rows.length==rowcount)
+            console.log('OK');
+        console.log(rowcount);
+    }
+});*/
+
+/*
+var paramQuery={
+    name:{
+        sqlType:sqlHelper.sqlserver.NVarChar,
+        inputValue:"select * from UserInfoTest"
+    },
+    pwd:{
+        sqlType:sqlHelper.sqlserver.VarChar,
+        inputValue:"123455"
+    }
+};
+
+sqlHelper.query("insert into UserInfoTest values(@name,@pwd)",paramQuery,function(err,recordsets,affected){
+    if(err)
+        console.log(err);
+    else{
+        console.log(recordsets);
+        console.log(affected);
+    }
+});
+
+*/
+
+
+
+sqlHelper.queryViaStream('select * from UserInfoTest',null,{
+    error:function(err){
+        console.log(err);
+    },
+    columns:function(columns){
+        console.log(columns);
+    },
+    row:function(row){
+        console.log(row);
+    },
+    done:function(affected){
+        console.log(affected);
+    }
+});
+
+
+
+
+
+
+
+
+
+
